@@ -1,0 +1,129 @@
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.logo-footer {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
+.logo-footer .accent {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer-left {
+  max-width: 264px;
+}
+
+.footer-icon {
+  color: #f4f4fd;
+}
+
+.footer-caption {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-wrapper {
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+.footer .socials {
+  gap: 16px;
+}
+
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.btn-filled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  font-weight: 500;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+.footer .btn-filled:hover,
+.footer .btn-filled:focus {
+  background-color: #31d0aa;
+}
+
+.footer .modal-btn-icon {
+  color: #fff;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.footer-form-input {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  gap: 24px;
+
+  color: #fff;
+
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.footer .modal-form-input {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
